@@ -19,7 +19,7 @@
                     }
                 },
                 opacity: {
-                    value: 0.3,
+                    value: 1,
                     random: true,
                     anim: {
                         enable: true,
@@ -29,7 +29,7 @@
                     }
                 },
                 size: {
-                    value: 3,
+                    value: 5,
                     random: true,
                     anim: {
                         enable: true,
@@ -42,8 +42,8 @@
                     enable: true,
                     distance: 120,
                     color: "#2563eb",
-                    opacity: 0.2,
-                    width: 1
+                    opacity: 0.4,
+                    width: 1.5
                 },
                 move: {
                     enable: true,
@@ -77,11 +77,11 @@
                     grab: {
                         distance: 140,
                         line_linked: {
-                            opacity: 0.4
+                            opacity: 1.0
                         }
                     },
                     push: {
-                        particles_nb: 4
+                        particles_nb: 6
                     }
                 }
             },
