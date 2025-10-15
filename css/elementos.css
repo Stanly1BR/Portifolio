@@ -121,7 +121,7 @@ nav {
 }
 
 .hero-content {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .hero-badge {
@@ -214,6 +214,18 @@ h2::after {
     left: 50%;
     transform: translateX(-50%);
     width: 60px;
+    height: 4px;
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    border-radius: 2px;
+}
+
+.hero h2::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    transform: translateX(-40%);
+    width: 100%;
     height: 4px;
     background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
     border-radius: 2px;
